@@ -1,0 +1,31 @@
+/* Default & Mobile View */
+body{
+    max-width:1280px;
+    justify-self: auto;
+
+}
+
+/* Tablet View */
+
+@media (min-width: 768px) {
+   .card{
+       display:inline-flex;
+       flex-direction:column;
+       width:44%;
+       margin-left:4%;
+
+   } 
+
+	
+}
+
+
+/* Desktop View */
+
+@media (min-width: 1024px) {
+    .card{
+        width:30%;
+        margin-left:2.5%;
+    }
+	
+}
